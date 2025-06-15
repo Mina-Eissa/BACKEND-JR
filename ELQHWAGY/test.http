@@ -1,0 +1,99 @@
+# GET http://127.0.0.1:8000/api/employee/ HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5MzgyOTY3LCJpYXQiOjE3NDg3NzgxNjcsImp0aSI6IjdjMThhYTFmM2E0MzQwY2Y5NzVjZmNhZTZlMDMxYjZhIiwidXNlcl9pZCI6IjEzOTYzNTJmLTIxOWUtNGY4NS1iYjkyLWEwNTFlN2M1NGJhNCJ9.DVpz-Sv5MO-7YoXmT06qW-eGH5jfS-L98T82TC4VShs
+
+# POST http://127.0.0.1:8000/api/employee/ HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5MzgyOTY3LCJpYXQiOjE3NDg3NzgxNjcsImp0aSI6IjdjMThhYTFmM2E0MzQwY2Y5NzVjZmNhZTZlMDMxYjZhIiwidXNlcl9pZCI6IjEzOTYzNTJmLTIxOWUtNGY4NS1iYjkyLWEwNTFlN2M1NGJhNCJ9.DVpz-Sv5MO-7YoXmT06qW-eGH5jfS-L98T82TC4VShs
+
+# {
+#     "username":"Employee1",
+#     "email":"Emp1@gmail.com",
+#     "password":"pass1234"
+# }
+
+# PATCH http://127.0.0.1:8000/api/employee/9c7469ed-9d2e-4b30-90da-6009b8021f75/ HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5MzgyOTY3LCJpYXQiOjE3NDg3NzgxNjcsImp0aSI6IjdjMThhYTFmM2E0MzQwY2Y5NzVjZmNhZTZlMDMxYjZhIiwidXNlcl9pZCI6IjEzOTYzNTJmLTIxOWUtNGY4NS1iYjkyLWEwNTFlN2M1NGJhNCJ9.DVpz-Sv5MO-7YoXmT06qW-eGH5jfS-L98T82TC4VShs
+
+# {
+#     "is_staff":true
+# }
+
+# GET http://127.0.0.1:8000/api/product/ HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5MzgyOTY3LCJpYXQiOjE3NDg3NzgxNjcsImp0aSI6IjdjMThhYTFmM2E0MzQwY2Y5NzVjZmNhZTZlMDMxYjZhIiwidXNlcl9pZCI6IjEzOTYzNTJmLTIxOWUtNGY4NS1iYjkyLWEwNTFlN2M1NGJhNCJ9.DVpz-Sv5MO-7YoXmT06qW-eGH5jfS-L98T82TC4VShs
+
+# GET http://127.0.0.1:8000/api/product/ HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5NTQ1Njg0LCJpYXQiOjE3NDg5NDA4ODQsImp0aSI6IjUwYjk3M2JhMzI2ZjRjYzdhZDViYmE3MWUzYjM4ZjViIiwidXNlcl9pZCI6IjhhMjUxZDQwLWEzMDEtNDU4MC05YzFjLTlhYTA0YWFlMDI0YiJ9.idIiMVui3tk-oLj08xS7xpkKG-dFdlBLKeRWqV1KXC4
+
+
+# POST http://127.0.0.1:8000/api/product/ HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5MzgyOTY3LCJpYXQiOjE3NDg3NzgxNjcsImp0aSI6IjdjMThhYTFmM2E0MzQwY2Y5NzVjZmNhZTZlMDMxYjZhIiwidXNlcl9pZCI6IjEzOTYzNTJmLTIxOWUtNGY4NS1iYjkyLWEwNTFlN2M1NGJhNCJ9.DVpz-Sv5MO-7YoXmT06qW-eGH5jfS-L98T82TC4VShs
+
+# {
+#     "name":"Tea",
+#     "price":"7.5",
+#     "ingredients":[
+#         {
+#             "name":"sugar",
+#             "type":"UNCOUNTABLE",
+#             "weight":20
+#         },
+#         {
+#             "name":"Tea",
+#             "type":"UNCOUNTABLE",
+#             "weight":10
+#         }
+#     ],
+#     "category":"DRINK"
+# }
+# POST http://127.0.0.1:8000/api/product/ HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5NTQ1Njg0LCJpYXQiOjE3NDg5NDA4ODQsImp0aSI6IjUwYjk3M2JhMzI2ZjRjYzdhZDViYmE3MWUzYjM4ZjViIiwidXNlcl9pZCI6IjhhMjUxZDQwLWEzMDEtNDU4MC05YzFjLTlhYTA0YWFlMDI0YiJ9.idIiMVui3tk-oLj08xS7xpkKG-dFdlBLKeRWqV1KXC4
+
+# {
+#     "name":"shisha toot2",
+#     "price":"35",
+#     "ingredients":[
+#         {
+#             "name":"m3sl toot2",
+#             "type":"UNCOUNTABLE",
+#             "weight":70
+#         }
+#     ],
+#     "category":"SMOKE"
+# }
+# PATCH  http://127.0.0.1:8000/api/product/60cd3345-2bac-4b57-bea3-974bdd4a1a9d/ HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5MzgyOTY3LCJpYXQiOjE3NDg3NzgxNjcsImp0aSI6IjdjMThhYTFmM2E0MzQwY2Y5NzVjZmNhZTZlMDMxYjZhIiwidXNlcl9pZCI6IjEzOTYzNTJmLTIxOWUtNGY4NS1iYjkyLWEwNTFlN2M1NGJhNCJ9.DVpz-Sv5MO-7YoXmT06qW-eGH5jfS-L98T82TC4VShs
+
+# {
+#     "category":"SMOKE"
+# }
+
+## refuse Employee token to create produst only owner can create product 
+# POST http://127.0.0.1:8000/api/product/ HTTP/1.1
+# Content-Type: application/json
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ5Mzg0NTA0LCJpYXQiOjE3NDg3Nzk3MDQsImp0aSI6IjRkNmQxMWJmYTk5NDQyZmQ5YzQxYmVlNDQxNzgyNTc2IiwidXNlcl9pZCI6IjljNzQ2OWVkLTlkMmUtNGIzMC05MGRhLTYwMDliODAyMWY3NSJ9.PrWMBwoZiIhzIZpLkxVtuK2ZZFugMwXmvGPBNsoOUGU
+
+# {
+#     "name":"Turkish Coffee",
+#     "price":"10",
+#     "ingredients":[
+#         {
+#             "name":"sugar",
+#             "type":"UNCOUNTABLE",
+#             "weight":30
+#         },
+#         {
+#             "name":"Coffee",
+#             "type":"UNCOUNTABLE",
+#             "weight":30
+#         }
+#     ],
+#     "category":"DRINK"
+# }
+
